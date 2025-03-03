@@ -17,4 +17,7 @@
 - Sql script to generate the same database
 - uses column name FinalGrade instead of Grade in Enrollments relation.
 
+## Add Department Relation
+- Sql script now has code to generate a Departments relation
+- Departments has a foreign key Departments(DepartmentHeadId) that references an instructor Instructor(Id)
 
