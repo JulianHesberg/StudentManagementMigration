@@ -7,7 +7,7 @@ namespace StudentManagementMigration.Models
 
         // Course Details
         public string Title { get; set; }
-        public int Credits { get; set; }
+        public decimal Credits { get; set; }
         
         public int InstructorId { get; set; }
 
