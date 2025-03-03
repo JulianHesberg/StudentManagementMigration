@@ -61,7 +61,7 @@ namespace StudentManagementMigration.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Grade")
+                    b.Property<int>("FinalGrade")
                         .HasColumnType("int");
 
                     b.Property<int>("StudentId")

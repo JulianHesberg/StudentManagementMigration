@@ -44,11 +44,6 @@ namespace StudentManagementMigration.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Departments");
-
-            migrationBuilder.RenameColumn(
-                name: "FinalGrade",
-                table: "Enrollments",
-                newName: "Grade");
         }
     }
 }
