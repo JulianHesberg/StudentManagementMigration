@@ -12,6 +12,7 @@ namespace StudentManagementMigration.Models
         public string MiddleName { get; set; }
         public string Email { get; set; }
         public DateTime EnrollmentDate { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         // Navigation Property: A student can have multiple enrollments
         public ICollection<Enrollment> Enrollments { get; set; }
