@@ -13,3 +13,8 @@
 - Created new relation "Instructor"
 - Adds foreign key reference to Instructor(Id) from Courses(InstructorId)
 
+## Refactor Final Grade
+- Sql script to generate the same database
+- uses column name FinalGrade instead of Grade in Enrollments relation.
+
+
