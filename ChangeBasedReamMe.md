@@ -8,7 +8,12 @@
 - Enrollment
 - Student
 
+## AddStudentMiddleName
+- Added MiddleName property to the Student Model.
+- Created the Migration File and Updated the DB.
+- Generated the Script.
+
 ## AddStudentDateOfBirth
-- Added DateOfBirth propert to the Student Model.
+- Added DateOfBirth property to the Student Model.
 - Created the Migration file and updated the DB.
 - Generated the script file.
