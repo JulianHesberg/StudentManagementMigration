@@ -21,3 +21,6 @@
 - Sql script now has code to generate a Departments relation
 - Departments has a foreign key Departments(DepartmentHeadId) that references an instructor Instructor(Id)
 
+## Modify Credits Type
+- complete generated database sql script
+- final modification was changing type int to decimal on Courses(Credits)
