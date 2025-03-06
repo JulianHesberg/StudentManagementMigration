@@ -20,12 +20,7 @@ namespace StudentManagementMigration.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Call base method
             base.OnModelCreating(modelBuilder);
-
-            // Optional: Configure entity relationships, constraints, or default values here.
-            // For example, if you want to make sure that Email is required:
-            // modelBuilder.Entity<Student>().Property(s => s.Email).IsRequired();
         }
     }
 }
